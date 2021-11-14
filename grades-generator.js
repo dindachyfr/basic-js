@@ -1,6 +1,8 @@
 const gradesGenerator = ({mtk, bahasaIndonesia, bahasaInggris, ipa}) =>{
-    finalGrade=''
-    let gradesAvg = (mtk + bahasaIndonesia + bahasaInggris + ipa)/4
+    finalGrade='';
+    if (typeof mtk && typeof bahasaIndonesia && typeof bahasaInggris && typeof ipa =='number'){
+    
+        let gradesAvg = (mtk + bahasaIndonesia + bahasaInggris + ipa)/4
         if(gradesAvg > 90){
          finalGrade+='A';
         }
@@ -23,11 +25,16 @@ const gradesGenerator = ({mtk, bahasaIndonesia, bahasaInggris, ipa}) =>{
     
     
         return `nilai rata-rata: ${gradesAvg} \nfinal grade: ${finalGrade}`}
+
+    else{
+        return 'Harap lengkapi nilai dengan angka'
+    }
+}
     
 
 console.log(gradesGenerator({
     mtk: 85,
     bahasaIndonesia: 90,
     bahasaInggris: 80,
-    ipa: 87
+    ipa: '98'
 }))
