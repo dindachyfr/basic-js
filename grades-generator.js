@@ -36,5 +36,5 @@ console.log(gradesGenerator({
     mtk: 65,
     bahasaIndonesia: 90,
     bahasaInggris: 5,
-    ipa: 43
+    ipa: "43"
 }))

@@ -1,11 +1,11 @@
-function reverseTriangle(n){
+function reverseTriangle(triangleLength){
     let string = "";
-    if (typeof(n) != 'number'){
+    if (typeof(triangleLength) != 'number'){
         console.log('Data harus number')
     }
     else{
-    for (let i = 0; i < n; i++) {
-      for (let k = 1; k <= n - i; k++) {
+    for (let i = 0; i < triangleLength; i++) {
+      for (let k = 1; k <= triangleLength - i; k++) {
         string += k;
       }
       string += "\n";

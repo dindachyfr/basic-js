@@ -13,8 +13,8 @@ phone:'1-0383-284872-28824',
 website: "hildegard.org"}
 
 let newData = {...data, name:'Dinda', email:'dindachyfr@gmail.com', hobbies:['rebahan', 'nonton warintil', 'main kucing']}
-//console.log(newData)
+console.log(newData)
 
-const {address} = data;
-const {street, city} = address;
-console.log({street, city});
+ const {address} = data;
+ const {street, city} = address;
+ console.log({street, city});
