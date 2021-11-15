@@ -18,7 +18,7 @@ const gradesGenerator = ({mtk, bahasaIndonesia, bahasaInggris, ipa}) =>{
         finalGrade+='D';
         }
     
-        if(gradesAvg <=60){
+        if(gradesAvg <60){
             finalGrade+='E';
            }
     
