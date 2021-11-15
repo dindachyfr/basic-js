@@ -13,4 +13,4 @@ function reverseTriangle(n){
     return string
     }
     }
-console.log(reverseTriangle(5));
+console.log(reverseTriangle(7));

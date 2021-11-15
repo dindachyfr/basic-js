@@ -17,4 +17,4 @@ let newData = {...data, name:'Dinda', email:'dindachyfr@gmail.com', hobbies:['re
 
 const {address} = data;
 const {street, city} = address;
-//console.log({street, city});
+console.log({street, city});
